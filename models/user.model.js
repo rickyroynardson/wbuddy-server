@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-userSchema.static.register = async function (email, password) {
+userSchema.statics.register = async function (email, password) {
   if (!email || !password) {
     throw Error("All fields must be filled!");
   }
@@ -43,7 +43,7 @@ userSchema.static.register = async function (email, password) {
   return user;
 };
 
-userSchema.static.login = async function (email, password) {
+userSchema.statics.login = async function (email, password) {
   if (!email || !password) {
     throw Error("All fields must be filled!");
   }
