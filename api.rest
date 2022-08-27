@@ -15,3 +15,9 @@ Content-Type: application/json
   "email": "johndoe@mail.com",
   "password": "!Johndoe123"
 }
+
+
+###
+
+GET http://localhost:4000/api/workout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzBhM2IyOGQ5MGY3MTBkNjBiODgzOWQiLCJpYXQiOjE2NjE2MTc1NTMsImV4cCI6MTY2MTg3Njc1M30.euzQSJiLYcmLdL0knl7p1lGtw6ZFBMHyK7ko-9-F7N8
