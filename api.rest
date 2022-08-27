@@ -2,6 +2,16 @@ POST http://localhost:4000/api/user/register
 Content-Type: application/json
 
 {
-  "email": "",
-  "password": ""
+  "email": "johndoe@mail.com",
+  "password": "!Johndoe123"
+}
+
+###
+
+POST http://localhost:4000/api/user/login
+Content-Type: application/json
+
+{
+  "email": "johndoe@mail.com",
+  "password": "!Johndoe123"
 }
